@@ -1,0 +1,102 @@
+.btn-bright-orange {
+    background-color: #f8893f; 
+    color: #ffffff; 
+    border: 1px solid #f8893f; 
+}
+
+.btn-bright-orange:hover,
+.btn-bright-orange:focus {
+    background-color: #fe5e01; 
+    color: #ffffff; 
+    border-color: #fe5e01;
+}
+
+
+.bg-light-orange{
+    background-color: #f6ccb9;
+}
+
+.logo{
+    width: 5%;
+    height: 5%;
+}
+.card-img-top{
+    width: 100%;
+    height:100%;
+    object-fit: contain;
+}
+
+.fixed-sidebar{
+    position: fixed;
+    
+    right: 0;
+    
+}
+
+.card_style {
+    transition: box-shadow 0.3s ease-in-out, border-color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+    border: 1px solid #ccc;
+}
+
+.card_style:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    border-color: #f8893f; 
+    background-color: #f6ccb9; 
+}
+
+.cart_img{
+    width: 70px;
+    height: 70px;
+    object-fit:contain;
+}
+
+/* Dropdown menu and hover effects to fit the site's theme */
+.dropdown-menu {
+    display: none;
+    background-color: #f6ccb9; /* Light orange background */
+    border: none;
+}
+
+.nav-link.dropdown-toggle:hover + .dropdown-menu,
+.nav-link.dropdown-toggle:focus + .dropdown-menu {
+    display: block;
+}
+
+.nav-link:hover, .dropdown-item:hover,
+.nav-link:focus, .dropdown-item:focus {
+    background-color: #f8893f; 
+    color: white;
+}
+
+.dropdown-item {
+    transition: background-color 0.3s ease-in-out;
+}
+
+.active, .dropdown-item.active {
+    background-color: #fe5e01;
+    color: white;
+}
+
+
+.nav-link, .sub-category-link {
+    color: #333; 
+    transition: color 0.2s, background-color 0.2s; 
+}
+
+
+.nav-link:hover, .nav-link:focus,
+.sub-category-link:hover, .sub-category-link:focus {
+    background-color: #f8893f; 
+    color: white;
+}
+
+
+.sub-category-list {
+    margin-top: 5px;
+    padding-left: 20px; 
+    display: none; 
+}
+
+.category-item:hover, .sub-category-item:hover {
+    background-color: #f0f0f0; 
+}
